@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  text-align: center; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding: 1vw; }
+
+header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #630f04; }
+
+.headerpics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%; }
+
+#firstheadpic {
+  width: 40%; }
+
+#secondheadpic {
+  width: 49%; }
+
+#header-date {
+  display: flex;
+  background-color: white;
+  justify-content: flex-end; }
+
+#header-date p {
+  font-weight: bold;
+  opacity: 0.6;
+  padding: 1vw;
+  font-size: 2vw; }
+
+ul {
+  width: 100%;
+  float: right;
+  background-color: black;
+  list-style: none; }
+
+ul a {
+  width: 14%;
+  font-size: 160%;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  float: left;
+  padding: 2vw;
+  text-decoration: none; }
+
+.container-3pics {
+  display: flex;
+  width: 95.01%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white; }
+
+.container-3pics img {
+  padding-top: 3vw;
+  height: 15vw;
+  max-width: 100%;
+  width: 100%; }
+
+figure {
+  max-width: 24vw; }
+
+figcaption {
+  position: relative;
+  font-size: 2vw;
+  bottom: 3vw;
+  color: white;
+  background-color: black;
+  height: 6vw; }
+
+.gray-part {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  height: 5vw;
+  background-color: lightgray;
+  font-size: 2vw;
+  padding: 2vw; }
+
+.transparent-part {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  background-image: url("snowden.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 90%;
+  margin: auto;
+  height: 15vw;
+  font-size: 5vw;
+  opacity: 0.5; }
+
+#text-on-transparent {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  bottom: 9vw;
+  font-size: 5vw; }
+
+.mobile-banner1 {
+  display: none; }
+
+.mobile-banner2 {
+  display: none; }
+
+.container-4pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.container-4pics figure {
+  max-width: 100%;
+  width: 30vw; }
+
+.container-4pics img {
+  padding-top: 2vw;
+  height: 15vw;
+  max-width: 100%;
+  width: 100%; }
+
+.contain-and-banner {
+  display: flex;
+  padding: 2vw; }
+
+.long-side-banner {
+  display: flex;
+  padding-left: 3vw;
+  height: 44vw;
+  width: 14vw;
+  max-width: 100%; }
+
+.long-side-banner img {
+  max-width: 100%; }
+
+.for-mobile {
+  display: none; }
+
+.mobile-banner1 {
+  display: none; }
+
+.mobile-banner2 {
+  display: none; }
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+    margin: auto; }
+
+  #firstheadpic {
+    width: 70%;
+    height: 20vw;
+    padding: 3vw; }
+
+  #secondheadpic {
+    display: none; }
+
+  ul a {
+    width: 12%;
+    font-size: 4vw; }
+
+  .gray-part {
+    height: 10vw;
+    font-size: 5vw; }
+
+  #header-date p {
+    font-size: 4vw; }
+
+  .container-3pics {
+    flex-wrap: wrap;
+    width: 94%; }
+
+  .container-3pics img {
+    width: 100%;
+    height: auto; }
+
+  .container-3pics figure {
+    max-width: 45%; }
+
+  .container-3pics figure {
+    font-size: 4vw; }
+
+  .container-3pics figcaption {
+    font-size: 4vw;
+    bottom: 2vw;
+    color: white;
+    background-color: black;
+    height: 12vw; }
+
+  .mobile-banner1 {
+    display: block;
+    display: flex;
+    width: 100%;
+    height: 41.8vw; }
+
+  .mobile-banner2 {
+    display: block;
+    display: flex;
+    width: 100%;
+    height: 38vw; }
+
+  .long-side-banner {
+    display: none; }
+
+  .container-4pics {
+    display: none; }
+
+  .for-mobile {
+    display: flex;
+    display: block;
+    top-padding: 1vw; }
+
+  .for-mobile img {
+    width: 100%;
+    height: 20vw;
+    top-padding: 3vw; }
+
+  .transparent-part {
+    display: none; }
+
+  #text-on-transparent {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
