@@ -57,20 +57,24 @@ header {
 	font-size: 2vw;
 }
 ul{
+	display:flex;
 	width: 100%;
 	float: right;
+	
 	background-color: black;
 	list-style: none;
 
 }
 
 ul a{
-	width: 14%;
-	font-size: 160%;	
+	display:flex;
+	width: 11%;
+	font-size: 2.5vw;	
 	font-weight: bold;
 	color: white;
 	background-color: black;
 	float: left;
+
 	padding: 2vw;
 	text-decoration: none;
 	
@@ -91,6 +95,7 @@ ul a{
 	height: 15vw;
 	max-width:100%;
 	width:100%;
+
 }
 figure{
 	
@@ -163,7 +168,7 @@ figcaption{
 }
 .container-4pics img{
 	padding-top:2vw;
-	height: 15vw;
+	height: 14vw;
 	max-width:100%;
 	width:100%;
 }
@@ -177,12 +182,13 @@ figcaption{
 .long-side-banner{
 	display:flex;
 	padding-left:3vw;
-	height: 44vw;
+	height: 41.5vw;
 	width: 14vw;
 	max-width: 100%
 }
 .long-side-banner img{
-	max-width: 100%;
+	
+	height: 100%;
 }
 .for-mobile{
 	display:none;
@@ -193,6 +199,31 @@ figcaption{
 }
 .mobile-banner2{
 	display: none;
+}
+
+footer{
+	display:flex;
+	flex-direction: column;
+	background-color: black;
+	height: 15vw;	
+	align-items: left;
+	padding: 1vw;
+	
+}
+
+footer p{
+	color: white;
+	font-size: 2vw;
+	
+}
+
+footer img {
+	display: flex;
+	position: relative;
+	height:100%;
+	left: 60%;
+	bottom: 2%;
+	padding: 1vw;
 }
 
 @import 'mobile';

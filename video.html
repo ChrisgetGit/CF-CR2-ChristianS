@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>CF-CR02-ChristianS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>    
+
+    <body>    
+		<header>
+
+			<div class= "headerpics">
+			  	<img id = "firstheadpic" src="img/logo-newspaper-cf.png" alt="logo">
+			  		
+			  	<img id = "secondheadpic" src="img/banner-1.png" alt="logo">
+			</div>
+			<nav>
+				<ul>
+					 <a href="index.html"><li >Home</li></a>
+					 <a href="tech.html"><li>Tech</li></a>
+					 <a href="culture.html"><li>Culture</li></a>
+					 <a href="video.html"><li>Video</li></a>
+					 <a href="article.html"><li>Article</li></a>                
+				</ul>
+			</nav>
+
+			<div id = 'header-date'>
+				<p>Date/Time: <span id="datetime"></span></p>
+				<script>
+					var dt = new Date ();
+					document.getElementById("datetime").innerHTML = dt.toLocalTimeString();
+				</script>
+			</div>		
+		</header>
+		<div class="gray-part">
+			<p>Video</p>
+		</div>
+
+		<script>
+			var dt = new Date ();
+			document.getElementById("datetime").innerHTML = dt.toLocaleString();
+		</script>
+	</body>
+	
+</html>
