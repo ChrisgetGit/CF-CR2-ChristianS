@@ -2,9 +2,7 @@
 
 For this CodeReview, the following criteria will be graded:
 
-    (5 points)Create a GitHub Repository named: CF-CR2-YourName. Push the files into it and send the link through the learning management system (lms). See an example of a GitHub link below:
-
-https://github.com/JohnDoe/repositoryname.git
+    (5 points)Create a GitHub Repository named: CF-CR2-YourName. Push the files into it and send the link through the learning management system (lms). 
 
     (10 points) Correct usage of the HTML structure (proper order of HTML elements and code indentation)
 
